@@ -40,9 +40,7 @@ function copyFiles() {
 
       return;
     }
-  } catch (error) {
-    console.error(error);
-  }
+  } catch (error) {}
 
   const data = fs.readFileSync(firstFile, { encoding: 'utf8' });
 
